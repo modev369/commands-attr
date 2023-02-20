@@ -1,0 +1,50 @@
+git add: Adds changes to the staging area.
+
+      -A: Adds all changes, including new files and deletions.
+      <file>: Adds a specific file or directory.
+      -u: Updates the index with the changes.
+      -p: Allows you to interactively add changes.
+git branch: Lists all branches in the repository.
+
+      -r: Shows remote branches.
+      -a: Shows all branches, including local and remote.
+      -d <branch>: Deletes a branch.
+      -m <old> <new>: Renames a branch.
+git checkout: Switches to the specified branch.
+
+      -b <branch>: Creates a new branch and checks it out.
+      <branch>: Switches to an existing branch.
+git clone: Clones a remote repository to your local machine.
+
+      <url>: Specifies the URL of the remote repository to clone.
+      <directory>: Specifies the directory to clone the repository into.
+      --depth <depth>: Limits the depth of the clone.
+      --branch <branch>: Checks out a specific branch after cloning.
+git commit: Commits changes to the repository.
+
+        -m <message>: Adds a commit message.
+        -a: Commits all changes, including modifications and deletions.
+        --amend: Allows you to modify the most recent commit.
+git init: Initializes a new Git repository in an existing directory.
+
+        -q: Quiet mode, suppresses output.
+git log: Shows a log of all commits.
+
+        --oneline: Shows a brief summary of each commit.
+        --graph: Shows the commit history as a graph.
+        -n: Limits the number of commits displayed.
+git merge: Merges the specified branch into the current branch.
+
+        <branch>: Merges the specified branch into the current branch.
+        --no-ff: Forces a merge commit to be created, even if it is not necessary.
+git pull: Fetches and merges changes from a remote repository.
+
+        --rebase: Rebases the local changes on top of the changes from the remote repository.
+        --ff-only: Only performs a fast-forward merge, if possible.
+git push: Pushes changes to a remote repository.
+
+          <remote> <branch>: Specifies the remote and branch to push to.
+          --force: Forces the push to overwrite remote changes.
+git status: Shows the current status of the repository.
+
+          -s: Short format, displays the status in a more concise format.
