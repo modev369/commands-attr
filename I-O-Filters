@@ -1,0 +1,49 @@
+Here is a summary of some common input/output (I/O) commands and filters used in shell scripting with attributes:
+
+I/O Commands:
+                    
+                          echo  : prints a message to the standard output (stdout)
+                          read  : reads input from the standard input (stdin  )
+                          printf: formats and prints data to stdout
+                          cat   : concatenates and displays files to stdout
+                          touch : creates an empty file or updates a file's modification timestamp
+
+
+
+
+
+I/O Redirection:
+                          >          : redirects the stdout of a command to a file
+                          >>         : appends the stdout of a command to a file
+                          <          : redirects the contents of a file to the stdin of a command
+                          |          : pipes the stdout of one command to the stdin of another command
+                          
+                          
+                          
+                          
+Filters:
+                      grep: searches for a pattern or regular expression in a file or output, with attributes such as:
+                                  -A: displays n lines after the matched line
+                                  -B: displays n lines before the matched line
+                                  -v: displays lines that do not match the pattern
+                                  -i: ignores case sensitivity when matching patterns
+                                  -E: uses extended regular expressions
+                      sed: stream editor that modifies the output based on patterns, with attributes such as:
+                                  -n: suppresses automatic printing of pattern space
+                                  -e: executes the following command
+                      awk: text processing tool that operates on fields of input, with attributes such as:
+                                  -F: sets the field separator
+                                  -v: assigns a value to a variable
+                      cut: extracts columns or fields from input based on a delimiter, with attributes such as:
+                                  -d: sets the delimiter
+                                  -f: selects a field or column
+                      sort: sorts the input in ascending or descending order, with attributes such as:
+                                  -r: sorts in reverse order
+                                  -n: sorts numerically
+                      uniq: removes duplicate lines from the input, with attributes such as:
+                                  -c: displays the count of each line
+                                  -d: displays only the duplicated lines
+                      head: displays the first n lines of the input, with attributes such as:
+                                  -n: sets the number of lines to display
+                      tail: displays the last n lines of the input, with attributes such as:
+                                   -n: sets the number of lines to display
